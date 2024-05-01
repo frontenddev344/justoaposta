@@ -261,14 +261,15 @@ header.site-header.sticky .site-nav a:hover {
 
 .social-signals {
     padding: 25px 0;
+    cursor: pointer;
 
     i {
-        color: $clr-blue;
+        color: $clr-white;
         font-size: 24px;
         text-align: center;
         line-height: 40px;
         margin: 0 10px;
-        border: 1px solid $clr-blue;
+        border: 1px solid $clr-white;
         border-radius: 30px;
         height: 40px;
         width: 40px;
@@ -464,7 +465,7 @@ header.site-header.sticky .site-nav a:hover {
 
     &-picture {
         img {
-            height: 440px;
+            height: 500px;
             object-fit: cover;
             border-radius: 10px;
         }

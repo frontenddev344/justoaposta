@@ -25,7 +25,7 @@ li {
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  box-shadow: 0 0 7px 9px rgba(213, 124, 75, 0.4392156863);
+  box-shadow: 0 0 7px 9px rgba(17, 211, 203, 0.3);
   width: 100%;
   max-width: 50%;
   text-align: center;
@@ -44,7 +44,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  color: #0C0B0B;
+  color: #707070;
 }
 
 h1 {
@@ -65,7 +65,7 @@ h2 {
   line-height: normal;
   font-weight: 500;
   text-align: center;
-  color: #1e2d59;
+  color: #585757;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
@@ -82,7 +82,7 @@ h2 {
 
 h3 {
   font-size: 35px;
-  color: #d57c4b;
+  color: #11d3cb;
 }
 
 h4 {
@@ -97,11 +97,11 @@ h4 {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e2d59;
+  background: #585757;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d57c4b;
+  background: #11d3cb;
   border-radius: 2px;
 }
 
@@ -123,8 +123,8 @@ body {
 }
 
 .primary-btn {
-  background: #d57c4b;
-  border: 1px solid #d57c4b;
+  background: #11d3cb;
+  border: 1px solid #11d3cb;
   display: inline-block;
   padding: 12px 23px;
   border-radius: 5px;
@@ -139,12 +139,12 @@ body {
   background-color: transparent;
 }
 .primary-btn:hover a {
-  color: #0C0B0B;
+  color: #707070;
 }
 
 .destination-btn {
-  background: #d57c4b;
-  border: 1px solid #d57c4b;
+  background: #11d3cb;
+  border: 1px solid #11d3cb;
   display: inline-block;
   padding: 12px 23px;
   border-radius: 5px;
@@ -213,7 +213,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #d57c4b;
+  background: #11d3cb;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 10px 0;
@@ -221,15 +221,15 @@ header.site-header.sticky {
 }
 
 header.site-header.sticky .site-nav a.active {
-  color: #1e2d59;
+  color: #585757;
 }
 
 header.site-header.sticky .site-nav a:hover {
-  color: #1e2d59;
+  color: #585757;
 }
 
 .site-header .site-nav ul li a.active {
-  color: #d57c4b;
+  color: #11d3cb;
 }
 
 .site-logo img {
@@ -244,7 +244,7 @@ header.site-header.sticky .site-nav a:hover {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #d57c4b;
+  color: #11d3cb;
 }
 
 .site-header {
@@ -273,17 +273,17 @@ header.site-header.sticky .site-nav a:hover {
 /*header end*/
 /*footer-css-start*/
 .footer {
-  background: #d57c4b;
+  background: #11d3cb;
   padding: 50px 0;
 }
 .footer-logo img {
   max-width: 250px;
 }
 .footer-links h2 {
-  color: #1e2d59;
+  color: #585757;
 }
 .footer-links h3 {
-  color: #1e2d59;
+  color: #585757;
   font-size: 25px;
 }
 .footer-links li a {
@@ -291,13 +291,13 @@ header.site-header.sticky .site-nav a:hover {
   font-weight: 500;
 }
 .footer-links li a:hover {
-  color: #1e2d59;
+  color: #585757;
 }
 .footer-adresse h2 {
-  color: #1e2d59;
+  color: #585757;
 }
 .footer-adresse h3 {
-  color: #1e2d59;
+  color: #585757;
   font-size: 25px;
 }
 .footer-adresse p {
@@ -311,19 +311,20 @@ header.site-header.sticky .site-nav a:hover {
 }
 .footer-mails a:hover,
 .footer-mails i:hover {
-  color: #1e2d59;
+  color: #585757;
 }
 
 .social-signals {
   padding: 25px 0;
+  cursor: pointer;
 }
 .social-signals i {
-  color: #1e2d59;
+  color: #fff;
   font-size: 24px;
   text-align: center;
   line-height: 40px;
   margin: 0 10px;
-  border: 1px solid #1e2d59;
+  border: 1px solid #fff;
   border-radius: 30px;
   height: 40px;
   width: 40px;
@@ -355,19 +356,19 @@ header.site-header.sticky .site-nav a:hover {
   padding: 40px 0;
 }
 .privacy-policy .content-wrap h4 {
-  color: #d57c4b;
+  color: #11d3cb;
   margin-bottom: 0;
   font-weight: 400;
 }
 .privacy-policy .content-wrap p {
-  color: #0C0B0B;
+  color: #707070;
   font-size: 15px;
 }
 .privacy-policy .content-wrap li {
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  color: #0C0B0B;
+  color: #707070;
 }
 
 /*privacy-policy end*/
@@ -383,19 +384,19 @@ header.site-header.sticky .site-nav a:hover {
   padding: 40px 0;
 }
 .terms .content-wrap h4 {
-  color: #d57c4b;
+  color: #11d3cb;
   margin-bottom: 0;
   font-weight: 400;
 }
 .terms .content-wrap p {
-  color: #0C0B0B;
+  color: #707070;
   font-size: 15px;
 }
 .terms .content-wrap li {
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  color: #0C0B0B;
+  color: #707070;
 }
 
 /*terms-conditon-end/
@@ -457,7 +458,7 @@ header.site-header.sticky .site-nav a:hover {
   padding: 50px 0;
 }
 .toptext-content p {
-  color: #0C0B0B;
+  color: #707070;
   text-align: center;
 }
 
@@ -483,12 +484,12 @@ header.site-header.sticky .site-nav a:hover {
   max-width: 40px;
 }
 .choose-picture img {
-  height: 440px;
+  height: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
 .choose-main {
-  background: #d57c4b;
+  background: #11d3cb;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -529,7 +530,7 @@ header.site-header.sticky .site-nav a:hover {
 .faq-question {
   font-size: 18px;
   line-height: 25px;
-  color: #d57c4b;
+  color: #11d3cb;
   font-weight: 500;
 }
 
@@ -603,14 +604,14 @@ p.disclamier {
   margin-top: 40px;
 }
 .resortscard-content h4 {
-  color: #d57c4b;
+  color: #11d3cb;
   line-height: 22px;
 }
 
 /*End-Resorts-casinos-css*/
 /*Start-Casino-destination-css*/
 .destination-cards h4 {
-  color: #d57c4b;
+  color: #11d3cb;
   font-size: 23px;
   text-align: center;
   margin: 10px 0;
