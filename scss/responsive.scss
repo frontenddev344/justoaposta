@@ -194,7 +194,8 @@
     .primary-btn {
         margin-bottom: 40px;
     }
-    .site-nav li a{
+
+    .site-nav li a {
         color: $clr-white !important;
     }
 }
@@ -202,6 +203,23 @@
 @media screen and (max-width:767px) {
     .faq-section {
         padding: 0 0 50px 0;
+    }
+
+    .choose-picture img {
+        border-radius: 0;
+    }
+
+    .choose-main.top {
+        margin-top: 10px;
+    }
+
+    .choose-main {
+        border-radius: 0;
+        margin-bottom: 27px;
+    }
+
+    .footer-adresse h3 {
+        margin: 10px 0;
     }
 }
 

@@ -256,6 +256,19 @@ h4 {
   .faq-section {
     padding: 0 0 50px 0;
   }
+  .choose-picture img {
+    border-radius: 0;
+  }
+  .choose-main.top {
+    margin-top: 10px;
+  }
+  .choose-main {
+    border-radius: 0;
+    margin-bottom: 27px;
+  }
+  .footer-adresse h3 {
+    margin: 10px 0;
+  }
 }
 @media screen and (max-width: 575px) {
   .site-nav {
