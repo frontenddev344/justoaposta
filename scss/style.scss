@@ -13,7 +13,7 @@
 
 
 ::-webkit-scrollbar-thumb {
-    background: $clr-orange;
+    background: $clr-pink;
     border-radius: 2px;
 }
 
@@ -39,8 +39,8 @@ body {
 }
 
 .primary-btn {
-    background: $clr-orange;
-    border: 1px solid $clr-orange;
+    background: $clr-pink;
+    border: 1px solid $clr-pink;
     display: inline-block;
     padding: 12px 23px;
     // position: absolute;
@@ -66,8 +66,8 @@ body {
 }
 
 .destination-btn {
-    background: $clr-orange;
-    border: 1px solid $clr-orange;
+    background: $clr-pink;
+    border: 1px solid $clr-pink;
     display: inline-block;
     padding: 12px 23px;
     border-radius: 5px;
@@ -140,7 +140,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-    background: $clr-orange;
+    background: $clr-pink;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
@@ -156,7 +156,7 @@ header.site-header.sticky .site-nav a:hover {
 }
 
 .site-header .site-nav ul li a.active {
-    color: $clr-orange;
+    color: $clr-pink;
 }
 
 .site-logo img {
@@ -171,7 +171,7 @@ header.site-header.sticky .site-nav a:hover {
     color: $clr-white;
 
     &:hover {
-        color: $clr-orange;
+        color: $clr-pink;
     }
 }
 
@@ -207,7 +207,7 @@ header.site-header.sticky .site-nav a:hover {
 
 /*footer-css-start*/
 .footer {
-    background: $clr-orange;
+    background: $clr-pink;
     padding: 50px 0;
 
     &-logo {
@@ -314,7 +314,7 @@ header.site-header.sticky .site-nav a:hover {
 
     .content-wrap {
         h4 {
-            color: $clr-orange;
+            color: $clr-pink;
             margin-bottom: 0;
             font-weight: 400;
         }
@@ -350,7 +350,7 @@ header.site-header.sticky .site-nav a:hover {
 
     .content-wrap {
         h4 {
-            color: $clr-orange;
+            color: $clr-pink;
             margin-bottom: 0;
             font-weight: 400;
         }
@@ -479,7 +479,7 @@ header.site-header.sticky .site-nav a:hover {
     }
 
     &-main {
-        background: $clr-orange;
+        background: $clr-pink;
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 15px;
@@ -523,7 +523,7 @@ header.site-header.sticky .site-nav a:hover {
 .faq-question {
     font-size: 18px;
     line-height: 25px;
-    color: $clr-orange;
+    color: $clr-pink;
     font-weight: 500;
 }
 
@@ -606,7 +606,7 @@ p.disclamier {
         margin-top: 40px;
 
         h4 {
-            color: $clr-orange;
+            color: $clr-pink;
             line-height: 22px;
         }
     }
@@ -619,7 +619,7 @@ p.disclamier {
 .destination {
     &-cards {
         h4 {
-            color: $clr-orange;
+            color: $clr-pink;
             font-size: 23px;
             text-align: center;
             margin: 10px 0;
