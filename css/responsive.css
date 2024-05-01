@@ -81,7 +81,7 @@ h2 {
 
 h3 {
   font-size: 35px;
-  color: #e00d4e;
+  color: #d57c4b;
 }
 
 h4 {
@@ -127,7 +127,7 @@ h4 {
     right: 0;
     bottom: 0;
     width: 300px;
-    background: #e00d4e;
+    background: #d57c4b;
     transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
     transform: translateX(-100%);
   }

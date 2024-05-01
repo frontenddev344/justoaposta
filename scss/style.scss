@@ -13,7 +13,7 @@
 
 
 ::-webkit-scrollbar-thumb {
-    background: $clr-pink;
+    background: $clr-orange;
     border-radius: 2px;
 }
 
@@ -32,21 +32,13 @@ body {
     overflow-x: hidden;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background-image: url(../images/bodybg.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .primary-btn {
-    background: $clr-pink;
-    border: 1px solid $clr-pink;
+    background: $clr-orange;
+    border: 1px solid $clr-orange;
     display: inline-block;
     padding: 12px 23px;
-    // position: absolute;
-    // bottom: 20px;
-    // left: 20px;
-    // right: auto;
     border-radius: 5px;
     color: #fff;
     width: 100%;
@@ -66,8 +58,8 @@ body {
 }
 
 .destination-btn {
-    background: $clr-pink;
-    border: 1px solid $clr-pink;
+    background: $clr-orange;
+    border: 1px solid $clr-orange;
     display: inline-block;
     padding: 12px 23px;
     border-radius: 5px;
@@ -140,7 +132,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-    background: $clr-pink;
+    background: $clr-orange;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
@@ -156,7 +148,7 @@ header.site-header.sticky .site-nav a:hover {
 }
 
 .site-header .site-nav ul li a.active {
-    color: $clr-pink;
+    color: $clr-orange;
 }
 
 .site-logo img {
@@ -171,7 +163,7 @@ header.site-header.sticky .site-nav a:hover {
     color: $clr-white;
 
     &:hover {
-        color: $clr-pink;
+        color: $clr-orange;
     }
 }
 
@@ -207,7 +199,7 @@ header.site-header.sticky .site-nav a:hover {
 
 /*footer-css-start*/
 .footer {
-    background: $clr-pink;
+    background: $clr-orange;
     padding: 50px 0;
 
     &-logo {
@@ -314,7 +306,7 @@ header.site-header.sticky .site-nav a:hover {
 
     .content-wrap {
         h4 {
-            color: $clr-pink;
+            color: $clr-orange;
             margin-bottom: 0;
             font-weight: 400;
         }
@@ -350,7 +342,7 @@ header.site-header.sticky .site-nav a:hover {
 
     .content-wrap {
         h4 {
-            color: $clr-pink;
+            color: $clr-orange;
             margin-bottom: 0;
             font-weight: 400;
         }
@@ -479,7 +471,7 @@ header.site-header.sticky .site-nav a:hover {
     }
 
     &-main {
-        background: $clr-pink;
+        background: $clr-orange;
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 15px;
@@ -523,27 +515,30 @@ header.site-header.sticky .site-nav a:hover {
 .faq-question {
     font-size: 18px;
     line-height: 25px;
-    color: $clr-pink;
+    color: $clr-orange;
     font-weight: 500;
 }
 
 .faq-section {
     padding: 50px 0;
 }
+
 h2.mb-0.disclamier {
     font-size: 20px;
     margin-top: 50px;
 }
+
 p.disclamier {
     font-size: 13px;
     margin-bottom: 30px;
 }
+
 .faq-answer {
     font-size: 16px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
-    padding-left:10px;
+    padding-left: 10px;
 
 
     p {
@@ -606,7 +601,7 @@ p.disclamier {
         margin-top: 40px;
 
         h4 {
-            color: $clr-pink;
+            color: $clr-orange;
             line-height: 22px;
         }
     }
@@ -619,7 +614,7 @@ p.disclamier {
 .destination {
     &-cards {
         h4 {
-            color: $clr-pink;
+            color: $clr-orange;
             font-size: 23px;
             text-align: center;
             margin: 10px 0;

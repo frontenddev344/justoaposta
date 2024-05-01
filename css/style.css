@@ -82,7 +82,7 @@ h2 {
 
 h3 {
   font-size: 35px;
-  color: #e00d4e;
+  color: #d57c4b;
 }
 
 h4 {
@@ -101,7 +101,7 @@ h4 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e00d4e;
+  background: #d57c4b;
   border-radius: 2px;
 }
 
@@ -120,15 +120,11 @@ body {
   overflow-x: hidden;
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  background-image: url(../images/bodybg.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
 }
 
 .primary-btn {
-  background: #e00d4e;
-  border: 1px solid #e00d4e;
+  background: #d57c4b;
+  border: 1px solid #d57c4b;
   display: inline-block;
   padding: 12px 23px;
   border-radius: 5px;
@@ -147,8 +143,8 @@ body {
 }
 
 .destination-btn {
-  background: #e00d4e;
-  border: 1px solid #e00d4e;
+  background: #d57c4b;
+  border: 1px solid #d57c4b;
   display: inline-block;
   padding: 12px 23px;
   border-radius: 5px;
@@ -217,7 +213,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #e00d4e;
+  background: #d57c4b;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 10px 0;
@@ -233,7 +229,7 @@ header.site-header.sticky .site-nav a:hover {
 }
 
 .site-header .site-nav ul li a.active {
-  color: #e00d4e;
+  color: #d57c4b;
 }
 
 .site-logo img {
@@ -248,7 +244,7 @@ header.site-header.sticky .site-nav a:hover {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #e00d4e;
+  color: #d57c4b;
 }
 
 .site-header {
@@ -277,7 +273,7 @@ header.site-header.sticky .site-nav a:hover {
 /*header end*/
 /*footer-css-start*/
 .footer {
-  background: #e00d4e;
+  background: #d57c4b;
   padding: 50px 0;
 }
 .footer-logo img {
@@ -359,7 +355,7 @@ header.site-header.sticky .site-nav a:hover {
   padding: 40px 0;
 }
 .privacy-policy .content-wrap h4 {
-  color: #e00d4e;
+  color: #d57c4b;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -387,7 +383,7 @@ header.site-header.sticky .site-nav a:hover {
   padding: 40px 0;
 }
 .terms .content-wrap h4 {
-  color: #e00d4e;
+  color: #d57c4b;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -492,7 +488,7 @@ header.site-header.sticky .site-nav a:hover {
   border-radius: 10px;
 }
 .choose-main {
-  background: #e00d4e;
+  background: #d57c4b;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -533,7 +529,7 @@ header.site-header.sticky .site-nav a:hover {
 .faq-question {
   font-size: 18px;
   line-height: 25px;
-  color: #e00d4e;
+  color: #d57c4b;
   font-weight: 500;
 }
 
@@ -607,14 +603,14 @@ p.disclamier {
   margin-top: 40px;
 }
 .resortscard-content h4 {
-  color: #e00d4e;
+  color: #d57c4b;
   line-height: 22px;
 }
 
 /*End-Resorts-casinos-css*/
 /*Start-Casino-destination-css*/
 .destination-cards h4 {
-  color: #e00d4e;
+  color: #d57c4b;
   font-size: 23px;
   text-align: center;
   margin: 10px 0;
