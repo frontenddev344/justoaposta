@@ -156,7 +156,7 @@ body {
   position: absolute;
   left: 20px;
   right: auto;
-  bottom: 28%;
+  bottom: 25%;
 }
 .destination-btn a {
   color: #fff;
@@ -337,6 +337,15 @@ header.site-header.sticky .site-nav a:hover {
   color: #fff;
 }
 
+.copyright-text {
+  text-align: center;
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+}
+.copyright-text p {
+  color: #fff;
+}
+
 /*footer-css-end*/
 /*privacy-policy start*/
 .privacy__section.banner {
@@ -487,7 +496,6 @@ header.site-header.sticky .site-nav a:hover {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
-  margin-top: 20px;
 }
 .choose-main p {
   color: #fff;

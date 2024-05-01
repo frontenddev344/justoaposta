@@ -75,7 +75,7 @@ body {
     position: absolute;
     left: 20px;
     right: auto;
-    bottom: 28%;
+    bottom: 25%;
 
     a {
         color: $clr-white;
@@ -288,6 +288,16 @@ header.site-header.sticky .site-nav a:hover {
     }
 }
 
+.copyright-text {
+    text-align: center;
+    border-top: 1px solid $clr-white;
+    margin-top: 20px;
+
+    p {
+        color: $clr-white;
+    }
+}
+
 /*footer-css-end*/
 
 /*privacy-policy start*/
@@ -473,7 +483,6 @@ header.site-header.sticky .site-nav a:hover {
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 15px;
-        margin-top: 20px;
 
         p {
             color: $clr-white;
