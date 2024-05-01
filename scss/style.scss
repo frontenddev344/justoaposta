@@ -75,7 +75,7 @@ body {
     position: absolute;
     left: 20px;
     right: auto;
-    bottom: 20px;
+    bottom: 60px;
 
     a {
         color: $clr-white;
@@ -601,11 +601,17 @@ header.site-header.sticky .site-nav a:hover {
 
 .destination {
     &-cards {
-        position: relative;
-        overflow: hidden;
+        h4 {
+            color: $clr-orange;
+            font-size: 23px;
+            text-align: center;
+            margin: 10px 0;
+        }
     }
 
     &-picture {
+        position: relative;
+
         img {
             width: 100%;
             max-width: 100%;
@@ -613,7 +619,7 @@ header.site-header.sticky .site-nav a:hover {
             transition: .3s;
 
             &:hover {
-                transform: scale(2);
+                filter: grayscale(1);
             }
         }
     }
