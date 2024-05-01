@@ -43,8 +43,14 @@ body {
     border: 1px solid $clr-orange;
     display: inline-block;
     padding: 12px 23px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
     border-radius: 5px;
-    color: $clr-white;
+    color: #fff;
+    width: 100%;
+    max-width: 135px;
 
     a {
         color: $clr-white;
@@ -55,6 +61,31 @@ body {
 
         a {
             color: $clr-black;
+        }
+    }
+}
+
+.destination-btn {
+    background: $clr-orange;
+    border: 1px solid $clr-orange;
+    display: inline-block;
+    padding: 12px 23px;
+    border-radius: 5px;
+    color: $clr-white;
+    position: absolute;
+    left: 20px;
+    right: auto;
+    bottom: 20px;
+
+    a {
+        color: $clr-white;
+    }
+
+    &:hover {
+        background-color: transparent;
+
+        a {
+            color: $clr-white;
         }
     }
 }
@@ -379,10 +410,12 @@ header.site-header.sticky .site-nav a:hover {
         padding: 10px 0 0 0;
     }
 }
+
 .destinationtbanner.banner {
     background-image: url(../images/destinationbanner.jpg);
     position: relative;
 }
+
 /*banner-css-end*/
 
 /*home-css-start*/
@@ -536,7 +569,7 @@ header.site-header.sticky .site-nav a:hover {
 
 /*Start-Resorts-casinos-css*/
 .bottomtext {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 
     p {
         text-align: left;
@@ -563,4 +596,29 @@ header.site-header.sticky .site-nav a:hover {
 }
 
 /*End-Resorts-casinos-css*/
+
+/*Start-Casino-destination-css*/
+
+.destination {
+    &-cards {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &-picture {
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: 300px;
+            transition: .3s;
+
+            &:hover {
+                transform: scale(2);
+            }
+        }
+    }
+}
+
+/*End-Casino-destination-css*/
+
 /*# sourceMappingURL=style.css.map */
