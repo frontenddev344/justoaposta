@@ -131,10 +131,6 @@ body {
   border: 1px solid #d57c4b;
   display: inline-block;
   padding: 12px 23px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: auto;
   border-radius: 5px;
   color: #fff;
   width: 100%;
