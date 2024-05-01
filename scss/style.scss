@@ -1,0 +1,566 @@
+/*global start*/
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $clr-blue;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: $clr-orange;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background-image: url(../images/bodybg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.primary-btn {
+    background: $clr-orange;
+    border: 1px solid $clr-orange;
+    display: inline-block;
+    padding: 12px 23px;
+    border-radius: 5px;
+    color: $clr-white;
+
+    a {
+        color: $clr-white;
+    }
+
+    &:hover {
+        background-color: transparent;
+
+        a {
+            color: $clr-black;
+        }
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Poppins", sans-serif;
+}
+
+a:focus {
+    color: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*global end*/
+
+/*header start*/
+header.site-header {
+    background: transparent;
+    font-size: 18px;
+    padding: 14px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    transition: .3s;
+}
+
+header.site-header.sticky {
+    background: $clr-orange;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
+
+header.site-header.sticky .site-nav a.active {
+    color: $clr-blue;
+}
+
+header.site-header.sticky .site-nav a:hover {
+    color: $clr-blue;
+}
+
+.site-header .site-nav ul li a.active {
+    color: $clr-orange;
+}
+
+.site-logo img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.site-nav a {
+    padding: 8px 12px !important;
+    display: inline-block;
+    font-weight: 500;
+    color: $clr-white;
+
+    &:hover {
+        color: $clr-orange;
+    }
+}
+
+
+.site-header {
+    padding: 10px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.closed-menu {
+    display: none;
+}
+
+.menu-toggle {
+    display: none !important;
+}
+
+
+
+/*header end*/
+
+
+
+/*footer-css-start*/
+.footer {
+    background: $clr-orange;
+    padding: 50px 0;
+
+    &-logo {
+        img {
+            max-width: 250px;
+        }
+    }
+
+    &-links {
+        h2 {
+            color: $clr-blue;
+        }
+
+        h3 {
+            color: $clr-blue;
+            font-size: 25px;
+        }
+
+        li a {
+            color: $clr-white;
+            font-weight: 500;
+
+            &:hover {
+                color: $clr-blue;
+            }
+        }
+    }
+
+    &-adresse {
+        h2 {
+            color: $clr-blue;
+        }
+
+        h3 {
+            color: $clr-blue;
+            font-size: 25px;
+        }
+
+        p {
+            color: $clr-white;
+            line-height: 20px;
+        }
+    }
+
+    &-mails {
+
+        a,
+        i {
+            color: $clr-white;
+            font-weight: 500;
+
+            &:hover {
+                color: $clr-blue;
+            }
+        }
+
+    }
+}
+
+.social-signals {
+    padding: 25px 0;
+
+    i {
+        color: $clr-blue;
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 10px;
+        border: 1px solid $clr-blue;
+        border-radius: 30px;
+        height: 40px;
+        width: 40px;
+        transition: .3s linear;
+
+        &:hover {
+            color: $clr-white;
+        }
+    }
+}
+
+/*footer-css-end*/
+
+/*privacy-policy start*/
+.privacy__section.banner {
+    background-image: url(../images/privacybanner.jpg);
+    text-align: center;
+    position: relative;
+    background-position: top;
+
+}
+
+.privacy-policy {
+    padding: 40px 0;
+
+    .content-wrap {
+        h4 {
+            color: $clr-orange;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+
+        p {
+            color: $clr-black;
+            font-size: 15px;
+        }
+
+        li {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: normal;
+            color: $clr-black;
+        }
+    }
+}
+
+
+
+/*privacy-policy end*/
+
+/*terms-conditon start*/
+.terms__section.banner {
+    background-image: url(../images/termsbanner.jpg);
+    text-align: center;
+    position: relative;
+    background-position: top;
+}
+
+.terms {
+    padding: 40px 0;
+
+    .content-wrap {
+        h4 {
+            color: $clr-orange;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+
+        p {
+            color: $clr-black;
+            font-size: 15px;
+        }
+
+        li {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: normal;
+            color: $clr-black;
+        }
+
+    }
+}
+
+/*terms-conditon-end/
+
+/*banner-css-start*/
+.homebanner.banner {
+    background-image: url(../images/homebanner.jpg);
+    height: 650px;
+    position: relative;
+
+    &::after {
+        height: 650px;
+    }
+}
+
+.aboutbanner.banner {
+    background-image: url(../images/aboutusbanner.avif);
+    position: relative;
+}
+
+.aboutpicture {
+    background-image: url(../images/aboutpicture.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 999;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgb(0 0 0 / 76%);
+        z-index: -1;
+    }
+}
+
+.resortbanner.banner {
+    background-image: url(../images/resortsbanner.jpg);
+    position: relative;
+}
+
+.abouttext {
+    padding: 100px 0;
+    z-index: 99999;
+
+    p {
+        color: $clr-white;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+}
+.destinationtbanner.banner {
+    background-image: url(../images/destinationbanner.jpg);
+    position: relative;
+}
+/*banner-css-end*/
+
+/*home-css-start*/
+.toptext {
+    padding: 50px 0;
+
+    &-content {
+        p {
+            color: $clr-black;
+            text-align: center;
+        }
+    }
+}
+
+.features {
+    &-inner {
+        img {
+            border-radius: 8px;
+            margin-bottom: 10px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.choose {
+    &-flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            max-width: 40px;
+        }
+    }
+
+    &-picture {
+        img {
+            height: 610px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+
+    &-main {
+        background: $clr-orange;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+
+        p {
+            color: $clr-white;
+            margin-top: 5px;
+        }
+    }
+}
+
+/*home-css-end*/
+
+/*Start-faq-css*/
+.faq-page {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.casino-text.hoteli {
+    padding: 0 0 50px 0 !important;
+}
+
+.faq-item {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-size: 18px;
+    line-height: 25px;
+    color: $clr-orange;
+    font-weight: 500;
+}
+
+.faq-section {
+    padding: 50px 0;
+}
+
+.faq-answer {
+    font-size: 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    p {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+.faq-answer.active {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.icon-container i {
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-container i.active {
+    transform: rotate(90deg);
+}
+
+/*End-faq-css*/
+
+
+/*Start-About-css*/
+.abouttext {
+    padding: 100px 0;
+    z-index: 99999;
+
+    p {
+        color: $clr-white;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+}
+
+/*End-About-css*/
+
+
+/*Start-Resorts-casinos-css*/
+.bottomtext {
+    padding: 50px 0;
+
+    p {
+        text-align: left;
+    }
+}
+
+.resortscard {
+    &-picture {
+        img {
+            border-radius: 10px;
+            height: 450px;
+            object-fit: cover;
+        }
+    }
+
+    &-content {
+        margin-top: 40px;
+
+        h4 {
+            color: $clr-orange;
+            line-height: 22px;
+        }
+    }
+}
+
+/*End-Resorts-casinos-css*/
+/*# sourceMappingURL=style.css.map */
