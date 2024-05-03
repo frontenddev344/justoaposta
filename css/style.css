@@ -499,6 +499,10 @@ header.site-header.sticky .site-nav a:hover {
   margin-top: 5px;
 }
 
+.contact-instructions p {
+  padding-top: 50px;
+}
+
 /*home-css-end*/
 /*Start-faq-css*/
 .faq-page {
@@ -610,6 +614,10 @@ p.disclamier {
 
 /*End-Resorts-casinos-css*/
 /*Start-Casino-destination-css*/
+.destination-main .row {
+  justify-content: center;
+}
+
 .destination-cards h4 {
   color: #11d3cb;
   font-size: 23px;
@@ -623,6 +631,7 @@ p.disclamier {
 .destination-picture img {
   width: 100%;
   max-width: 100%;
+  object-fit: cover;
   height: 300px;
   transition: 0.3s;
 }
