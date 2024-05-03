@@ -484,9 +484,22 @@ header.site-header.sticky .site-nav a:hover {
     }
 }
 
-.contact-instructions p {
-    padding-top: 50px;
+.contact-instructions {
+    p {
+        padding-top: 50px;
+    }
+
+    h3 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+        display: block;
+    }
 }
+
 
 .contact-instructions .row {
     display: flex;

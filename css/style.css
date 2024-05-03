@@ -502,6 +502,14 @@ header.site-header.sticky .site-nav a:hover {
 .contact-instructions p {
   padding-top: 50px;
 }
+.contact-instructions h3 {
+  font-size: 27px;
+  text-align: center;
+}
+.contact-instructions a {
+  text-align: center;
+  display: block;
+}
 
 .contact-instructions .row {
   display: flex;
