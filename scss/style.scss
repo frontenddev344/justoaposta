@@ -532,7 +532,7 @@ textarea.input-control {
 }
 
 .form-group .submit-btn {
-    background: $clr-black;
+    background: #585757;
     border: 1px solid $clr-black;
     transition: all 0.2s linear;
     display: inline-block;
@@ -544,6 +544,10 @@ textarea.input-control {
         background-color: $clr-orange;
         border: 1px solid $clr-white;
     }
+}
+
+textarea#message:focus-visible {
+    outline: none;
 }
 
 .form-group label {
